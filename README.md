@@ -1,7 +1,7 @@
 # Steam Widget Shortcodes for WordPress
 
 ## Installation
-Download the latest package from the releases and unzip the **steam-store-shortcode** folder to your WordPress plugin directory: __/wp-content/plugins/__, you're ready to set off.
+Download the latest package from the releases and unzip the **steam-store-shortcode** folder to your WordPress plugin directory: __/wp-content/plugins/__. You're ready to set off.
 
 ****
 
@@ -30,7 +30,7 @@ This widget can be used to promote Steam Greenlight projects.
 **Parameters**
 * __id__: Steam Greenlight ID from your project, can be found at the end of the store URL (e.g. http://steamcommunity.com/sharedfiles/filedetails/?id=515329688 > 515329688)
 * __width__ (Optional): Widget's width, default: 100%.
-* __height__ (Optional): Widget's width, default: 137px.
+* __height__ (Optional): Widget's height, default: 137px.
 
 **Examples**:  
 * `[steam-greenlight-widget id="515329688"]`  
