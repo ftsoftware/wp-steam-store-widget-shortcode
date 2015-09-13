@@ -6,7 +6,7 @@
 * Version: 1.0
 * Author: Gino Messmer
 * Author URI: http://github.com/ginomessmer
-* License: GPL 3.0. See license file for more information.
+* License: MIT. See license file for more information.
 */
 
 	// Steam Store Widget Shortcode Function
@@ -32,6 +32,6 @@
 		return $html_widget;
 	}
 	
-	add_shortcode('steam-store-widget', 'store_widget_builder'); 				// Steam Store
-	add_shortcode('steam-greenlight-widget', 'greenlight_widget_builder');		// Greenlight
+	add_shortcode('steam-store-widget', 'store_widget_builder'); // Steam Store
+	add_shortcode('steam-greenlight-widget', 'greenlight_widget_builder'); // Greenlight
 ?>
