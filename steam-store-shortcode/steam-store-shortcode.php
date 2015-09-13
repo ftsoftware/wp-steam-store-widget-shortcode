@@ -6,7 +6,7 @@
 * Version: 1.0
 * Author: Gino Messmer
 * Author URI: http://github.com/ginomessmer
-* License: MIT. See license file for more information.
+* License: GPLv2. See license file for more information.
 */
 
 	// Steam Store Widget Shortcode Function
