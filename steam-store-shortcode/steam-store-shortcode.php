@@ -20,5 +20,18 @@
 		return $html_widget;
 	}
 	
-	add_shortcode('steam-store-widget', 'store_widget_builder');					// Steam Store
+	// Steam Greenlight Widget {
+	function greenlight_widget_builder($atts) {
+		extract(shortcode_atts(array(
+			'id' => 0,
+			'width' => '100%',
+			'height' => 137,
+		), $atts));
+
+		$html_widget = '<iframe src="http://steamcommunity.com/sharedfiles/widget/' . $id . '/" width="' . $width .  '" height="' . $height . '" frameBorder="0" scrolling="no"></iframe>';
+		return $html_widget;
+	}
+	
+	add_shortcode('steam-store-widget', 'store_widget_builder'); 				// Steam Store
+	add_shortcode('steam-greenlight-widget', 'greenlight_widget_builder');		// Greenlight
 ?>
